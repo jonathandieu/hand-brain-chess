@@ -5,10 +5,10 @@
   "main": "server.ts",
   "scripts": {
     "tsc": "tsc",
-    "lint": "eslint --cache \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "start": "nodemon ./build/src/server.js"
   },
   "repository": {
     "type": "git",
@@ -33,8 +33,8 @@
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
+    "nodemon": "^2.0.15",
     "prettier": "2.5.1",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"

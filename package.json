@@ -1,0 +1,21 @@
+{
+    "name": "hb-chess",
+    "version": "1.0.0",
+    "description": "Backend express and node server for our mern-stack app",
+    "scripts": {
+        "dev": "concurrently \"cd frontend && npm run start\" \"cd backend && npm run start\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonathanhuydieu/hand-brain-chess.git"
+    },
+    "author": "Group 14",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jonathanhuydieu/hand-brain-chess/issues"
+    },
+    "homepage": "https://github.com/jonathanhuydieu/hand-brain-chess#readme",
+    "devDependencies": {
+        "concurrently": "^7.0.0"
+    }
+}
